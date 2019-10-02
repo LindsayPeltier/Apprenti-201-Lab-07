@@ -1,1 +1,27 @@
-* {background-color: blue}
+form {
+  position: relative;
+
+  width  : 400px;
+  height : 400px;
+  margin : 0 auto;
+
+  color: lightskyblue;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid salmon;
+  border-radius: 4px;
+}
+
+input[type=number] {
+  width: 33%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid salmon;
+  border-radius: 4px;
+}
