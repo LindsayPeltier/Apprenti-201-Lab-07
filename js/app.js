@@ -1,6 +1,7 @@
 'use strict';
 
 //constructor 
+
 var Store = function(location, minCustHr, maxCustHr, avgCookCust) {
   this.location = location;
   this.minCustHr = minCustHr;
@@ -16,6 +17,7 @@ var Lima = new Store ('Lima', 2, 16, 4.6);
 
 Store.prototype.renderStore = render;
 function render(){
+
 }
 
 //table 
