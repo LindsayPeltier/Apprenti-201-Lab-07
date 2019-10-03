@@ -1,24 +1,28 @@
 'use strict';
 
-//constructor 
+var storeHours = ['6am','7am','8am','9am','10am','11am','12pm','1pm','2pm','3pm','4pm','5pm','6pm','7pm']
 
-var Store = function(location, minCustHr, maxCustHr, avgCookCust) {
+function Store(location, minCustHr, maxCustHr, avgCookCust){
   this.location = location;
   this.minCustHr = minCustHr;
   this.maxCustHr = maxCustHr;
   this.avgCookCust = avgCookCust;
-};
+  };
 
-var Seattle = new Store ('Seattle', 23, 65, 6.3);
-var Tokyo = new Store ('Tokyo', 3, 24, 1.2);
-var Dubai = new Store ('Dubai', 11, 38, 3.7);
-var Paris = new Store ('Paris', 20, 38, 2.3);
-var Lima = new Store ('Lima', 2, 16, 4.6);
+ Store.prototype = {
+  //random # of customers per hour
+  //render store
+ }; 
+
+  var Seattle = new Store('Seattle', 23, 65, 6.3);
+  var Tokyo = new Store('Tokyo', 3, 24, 1.2);
+  var Dubai = new Store('Dubai', 11, 38, 3.7);
+  var Paris = new Store('Paris', 20, 38, 2.3);
+  var Lima = new Store('Lima', 2, 16, 4.6);
 
 Store.prototype.renderStore = render;
-function render(){
-
-}
+  function render(){
+  }
 
 //table 
   var table = document.createElement('table'); 
@@ -51,7 +55,4 @@ function handleSubmit (event){
 }
 
 var newStoreForm = new (location, minCustHr, maxCustHr, avgCookCust);
-
-
-
 
