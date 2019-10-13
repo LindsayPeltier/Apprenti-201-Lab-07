@@ -1,0 +1,58 @@
+body{
+  background-color: rgb(219, 212, 203);
+}
+
+h1{
+  color: rgb(83, 46, 42);
+}
+
+header{
+  height: 120px;
+  border-bottom: darkgray solid 3px;
+  background-color: white;
+  display: flex;
+}
+
+img{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+legend{
+  font-size: 200%;
+}
+
+#soon {
+  position: relative;
+  width  : 400px;
+  height : 400px;
+  margin : 10px;
+  color: black;
+  border: black solid 1px;
+}
+
+form {
+  position: relative;
+  width  : 400px;
+  height : 400px;
+  margin : 10px;
+  color: black;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+input[type=number] {
+  width: 33%;
+  padding: 8px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 4px;
+}
