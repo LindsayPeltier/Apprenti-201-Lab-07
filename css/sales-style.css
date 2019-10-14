@@ -2,33 +2,50 @@ body{
   background-color: rgb(219, 212, 203);
 }
 
-h1{
-  color: rgb(83, 46, 42);
-}
-
 header{
   height: 120px;
   border-bottom: darkgray solid 3px;
   background-color: white;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-img{
-  margin-top: 20px;
-  margin-bottom: 20px;
+header h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  color: rgb(83, 46, 42);
+}
+
+header img{
+  float: left;
 }
 
 legend{
   font-size: 200%;
 }
 
+#sales_list{
+  float: right;
+  margin-top: 75px;
+  margin-right: 200px;
+}
+
 #soon {
   position: relative;
+  text-align: center;
   width  : 400px;
   height : 400px;
   margin : 10px;
   color: black;
   border: black solid 1px;
+  background-color: white;
+}
+
+#tshirt{
+  width: 285x;
+  height: 285px;
 }
 
 form {
